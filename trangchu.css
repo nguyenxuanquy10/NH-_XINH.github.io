@@ -1,0 +1,998 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+    line-height: 1.6;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* slider */
+
+.content .slider {
+    background: url(https://nhaxinh.com/wp-content/uploads/2021/12/nha-xinh-banner-noel-061221-1400x663.jpg) top center / cover no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.content .slider:hover {
+    cursor: grab;
+}
+
+.slider .text-header {
+    position: absolute;
+    width: 64%;
+    bottom: 75vh;
+    right: 0;
+    text-align: center;
+}
+
+.slider .text-header h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.9em;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 3px;
+}
+
+.slider .text-header a {
+    display: inline-block;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 7px 18px;
+}
+
+.slider .text-header a:hover {
+    background-color: #999;
+    box-shadow: 0px 1px 1px 0px rgb(230, 226, 226);
+}
+
+.slider .text-header span {
+    color: #666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+
+/* section1 */
+
+.section1 {
+    display: inline-block;
+    width: 100%;
+}
+
+.design-h2 {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.design-p {
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 0;
+}
+
+
+/* section1 */
+
+.section1 .row1 {
+    display: flex;
+    margin-top: 50px;
+    /* margin-left: -15px;
+    margin-right: -15px; */
+}
+
+.section1 .row1-left {
+    width: 49vw;
+}
+
+.section1 .row1-left img {
+    width: 100%;
+}
+
+.section1 .row1-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 51vw;
+    height: auto;
+}
+
+.section1 .row1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.row1-text-design1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 50px;
+    width: 270px;
+    z-index: 1;
+}
+
+.row1-text-design2 {
+    position: absolute;
+    left: 13%;
+    bottom: 0;
+    width: 225px;
+}
+
+.row1-text-design2 a,
+.row1-text-design1 a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row1-text-design2 a i,
+.row1-text-design1 a i {
+    margin-left: 5px;
+}
+
+.section1 {
+    padding-top: 20px;
+    margin-bottom: -40px;
+}
+
+.section1 .row1-right-img {
+    width: 55%;
+    height: 100%;
+}
+
+.section1 .row1-right img {
+    position: relative;
+    float: right;
+    width: 28vw;
+    max-height: 518px;
+}
+
+.section1 .row2 {
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.section1 .row2-left {
+    display: flex;
+    padding: 80px 15px;
+}
+
+.section1 .row2-left-des,
+.section1 .row2-left-img {
+    padding: 0 15px 30px;
+}
+
+.section1 .row2-left-img img {
+    width: 100%;
+    padding-left: 0px !important;
+}
+
+.section1 .row2-right {
+    padding-right: 1rem;
+}
+
+.section1 .row2-right-img img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.section1 .row2-left-des a,
+.section1 .row2-right-des a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section1 .row2-left-des p {
+    padding-top: 5px;
+}
+
+.section1 .row2-left-des a i,
+.section1 .row2-right-des a i {
+    margin-left: 5px;
+}
+
+.zoomimg {
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.zoomimg img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.zoomimg img:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+
+/* banner */
+
+.content .banner {
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .banner-text {
+    background: url(https://nhaxinh.com/wp-content/uploads/2021/10/elegance-bo-suu-tap-dep-1400x769.jpg) top center / cover no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.content .banner-text:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.banner .text-banner {
+    position: absolute;
+    /* width: 64%; */
+    right: 11%;
+    top: 40%;
+    text-align: right;
+    z-index: 1;
+}
+
+.banner .text-banner h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.9em;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    letter-spacing: .05em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    width: 100%;
+}
+
+.banner .text-banner h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    line-height: 1;
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+}
+
+.banner .text-banner .banner-a {}
+
+.banner .text-banner a {
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 7px 18px;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border: 2px solid #e9e9e9;
+}
+
+.banner .text-banner a:hover {
+    background-color: #fff;
+}
+
+.banner .text-banner span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: .97em;
+    color: #666;
+}
+
+
+/* text - products */
+
+.text-products {
+    margin-top: 50px;
+    margin-bottom: 1.5em;
+    padding: 0 3%;
+}
+
+.text-products .text-prds {
+    display: inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    ;
+    width: 100%;
+    align-items: center;
+}
+
+.text-products .text-prds h3 {
+    border-bottom: 1px solid #ececec;
+}
+
+.text-products .text-prds span {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.text-products .text-prds a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #0a0a0b;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* products */
+
+.products {
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products .sp {
+    width: 320px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+@keyframes bdor {
+    from {
+        border: 1px solid #fff;
+    }
+    to {
+        border: 1px solid #a0a0a0;
+    }
+}
+
+.products .sp:hover {
+    border: 1px solid #a0a0a0;
+    animation-name: bdor;
+    animation-duration: 1.5s;
+}
+
+.products .sp .box-img {
+    padding-top: 20px;
+}
+
+.products .box-text {
+    padding-top: 12px;
+}
+
+.products .title-prd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.products .title-prd .nameprd {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.products .title-prd i {
+    margin-top: 20px;
+}
+
+.products .monney {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.products .sp .xemthem {
+    display: none;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.products .sp:hover .xemthem {
+    display: flex;
+}
+
+.products .xemthem .add-prd,
+.products .xemthem .view-prd {
+    border: 1px solid #333;
+    padding: 8px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@keyframes temp {
+    from {
+        background-color: #fff;
+        color: #000;
+    }
+    to {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+.products .xemthem .add-prd:hover {
+    color: #fff;
+    background-color: #000;
+    animation-name: temp;
+    animation-duration: .6s;
+}
+
+.products .xemthem .view-prd {
+    color: white;
+    background-color: #333;
+}
+
+
+/* section2 */
+
+.section2 {
+    padding-top: 90px;
+}
+
+.section2 .section2-form {
+    display: flex;
+    background-color: #f6f7f8;
+}
+
+.section2 .section2-col {
+    width: 50%;
+    display: flex;
+}
+
+.section2 .col-right {
+    display: flex;
+    height: 100%;
+}
+
+.section2 .left-img {
+    margin: 0;
+}
+
+.section2 .left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2 .section2-text {
+    display: flex;
+    width: 50%;
+    padding: 2rem 0rem;
+    margin: 0 5rem;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.section2 .col-right h2 {
+    padding-bottom: 10px;
+}
+
+.section2 .col-right p {
+    padding-bottom: 40px;
+}
+
+.section2 .col-right a {
+    text-decoration: none;
+    background-color: #0a0a0b;
+    color: #fff;
+    padding: 10px 21px;
+}
+
+.section2 .right-img {
+    width: 33.33333%;
+}
+
+.section2 .right-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2 .zoomimg {
+    width: 100%;
+}
+
+
+/* goccamhung */
+
+.title-goccamhung {
+    margin: 80px 0;
+}
+
+.title-goccamhung h3 {
+    font-size: 40px;
+    text-transform: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+
+/* slider-gch */
+
+.slider-gch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.box-gch {
+    width: 660px;
+    height: 450px;
+    padding: 1px;
+    opacity: 0.9;
+}
+
+.box-gch img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-gch h4 {
+    font-size: 17px;
+    color: #0a0a0b;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+    animation-name: padding-topd;
+    animation-duration: .5s;
+}
+
+.box-gch .it {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 2px;
+    display: block;
+    background-color: rgba(0, 0, 0, .1);
+    max-width: 30px;
+}
+
+.box-gch p {
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+}
+
+.box-gch:hover {
+    opacity: 1;
+}
+
+@keyframes padding-topu {
+    from {
+        padding-top: 20px;
+    }
+    to {
+        padding-top: 10px;
+    }
+}
+
+@keyframes padding-topd {
+    from {
+        padding-top: 10px;
+    }
+    to {
+        padding-top: 20px;
+    }
+}
+
+.box-gch:hover h4 {
+    padding-top: 10px;
+    animation-name: padding-topu;
+    animation-duration: .5s;
+}
+
+
+/* contact */
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.pull-right {
+    /* kéo sang phải */
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 17px;
+    display: inline-block;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    margin-right: 8px;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.content .content-section {
+    width: 1300px;
+    padding: 64px 0 112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .section-heading {
+    font-weight: 550;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+
+.content .section-sub-heading {
+    font-size: 18px;
+    margin: 30px 0 20px 8px;
+}
+
+.contact-content {
+    display: flex;
+    padding: 85px 0;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+    flex: 1;
+}
+
+.contact-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.contact-form {
+    font-size: 16px;
+    background-color: #f6f7f8;
+    padding: 60px;
+    flex: 1;
+    position: relative;
+}
+
+.contact-form .form-control {
+    padding: 12px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 2px;
+}
+
+.form-control-big {
+    padding: 12px 12px 36px 12px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 1px 1px 0px 0px rgb(0 0 0 / 3%);
+    border-radius: 2px;
+}
+
+.contact-fouder-btn {
+    padding: 4px 8px;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.contact-fouder a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.contact-phone-btn {
+    padding: 10px 20px;
+    width: auto;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    background: #a5886f;
+    position: absolute;
+    right: 60px;
+    top: 0;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+.contact-phone-icon {
+    font-size: 1.4rem;
+}
+
+
+/* box-img */
+
+.box-hinhanh {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.box-hinhanh .anh {
+    width: 212px;
+    height: 212px;
+    padding: 1px;
+}
+
+.box-hinhanh img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* search */
+
+.search {
+    position: relative;
+    padding: 300px;
+    background: url('https://nhaxinh.com/wp-content/uploads/2021/11/cua-hang-nha-xinh-191121-1400x690.jpg') top center / cover no-repeat;
+}
+
+.search .text-search {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.search .p1 {
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(253, 253, 253);
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+.box-search {
+    color: rgb(253, 253, 253);
+    font: 1.2em sans-serif;
+    border: white solid 2px;
+    background: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.box-search:hover {
+    opacity: 0.9;
+    background-color: #fff;
+    color: #333;
+}
+
+@media (max-width: 63.9375em) {
+    /* section1 */
+    .section1 {
+        display: inline-block;
+        width: 100%;
+    }
+    .design-h2 {
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .design-p {
+        font-size: 13px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 10px 0;
+    }
+    .section1 .row1 {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .section1 .row1-left {
+        width: 100%;
+    }
+    .section1 .row1-left img {
+        width: 100%;
+    }
+    .section1 .row1-right {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .section1 .row1-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .row1-text-design1 {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .row1-text-design2 {
+        width: 100%;
+        position: static;
+        padding: 30px 50px;
+    }
+    .row1-text-design2 a i,
+    .row1-text-design1 a i {
+        margin-left: 5px;
+    }
+    .section1 {
+        padding-top: 20px;
+        margin-bottom: -40px;
+    }
+    .section1 .row1-right-img {
+        width: 100%;
+        height: 100%;
+    }
+    .section1 .row1-right img {
+        position: static;
+        float: none;
+        width: 100%;
+        max-height: none;
+    }
+    .section1 .row2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0;
+    }
+    .section1 .row2-left {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: left;
+    }
+    .section1 .row2-left-des {
+        padding: 20px 50px;
+    }
+    .section1 .row2-left-img {
+        padding: 0;
+    }
+    .section1 .row2-left-img img {
+        width: 100%;
+        padding-left: 0;
+    }
+    .section1 .row2-right {
+        padding-right: 0;
+    }
+    .section1 .row2-right-img img {
+        width: 100%;
+        object-fit: cover;
+        padding-bottom: 20px;
+    }
+    .section1 .row2-left-des p {
+        padding-top: 5px;
+    }
+    .section1 .row2-left-des a i,
+    .section1 .row2-right-des a i {
+        margin-left: 5px;
+    }
+    .row2-right-des {
+        padding: 0 50px;
+    }
+    .section2 .right-img {
+        display: none;
+    }
+    .contact-content {
+        flex-direction: column;
+        margin-top: -150px;
+    }
+    .pull-left {
+        width: 100%;
+    }
+    .slider-gch {
+        flex-direction: column;
+    }
+    .box-gch {
+        display: contents;
+    }
+    .box-gch p {
+        padding-bottom: 30px;
+    }
+    .box-gch h4 {
+        animation-direction: alternate;
+    }
+    .box-gch:hover h4 {
+        animation-direction: alternate;
+    }
+    .text-gch {
+        padding: 0 30px;
+    }
+    .contact-content {
+        flex-direction: column;
+        margin-top: -150px;
+        padding: 85px 0 55px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+    .section2 .section2-form {
+        display: flex;
+        background-color: #f6f7f8;
+        flex-direction: column;
+    }
+    .section2 .section2-col {
+        width: 100%;
+        display: flex;
+    }
+}

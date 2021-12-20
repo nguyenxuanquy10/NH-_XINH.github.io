@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.chuatatca {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: minmax(auto, 50px);
+}
+
+.menu {
+    grid-column: 1/13;
+    width: 100%;
+    display: flex;
+    background: #003d66;
+    align-items: center;
+    position: fixed;
+    color: white;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+h3 {
+    margin-left: 20rem;
+    font-size: 23px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 20rem;
+}
+
+
+/*END css menu*/
+
+div.phan-1 {
+    grid-column: 1/13;
+    background: #bc1a1a;
+    height: 300px;
+}
+
+div.phan-2 {
+    grid-column: 1/13;
+    background: #4caf50;
+    height: 300px;
+}
+
+div.phan-3 {
+    grid-column: 1/13;
+    background: #362b2b;
+    height: 300px;
+}
+
+div.phan-4 {
+    grid-column: 1/13;
+    background: #21925e;
+    height: 1000px;
+}
+
+
+/*KET THUC CSS CAC PHAN*/
+
+.menutora {
+    padding: 30px;
+    transition: 0.3s;
+}
