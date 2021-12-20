@@ -98,3 +98,28 @@ ScrollReveal().reveal('.box-title', {
     delay: 50,
     // origin: `right`
 });
+// goc cam ung 
+ScrollReveal().reveal('.bodymain1', {
+    delay: 50,
+    // origin: `right`
+});
+
+ScrollReveal().reveal('.bodymain2', {
+    delay: 50,
+    // origin: `right`
+});
+
+ScrollReveal().reveal('.bodymain3', {
+    delay: 50,
+    // origin: `right`
+});
+
+ScrollReveal().reveal('.bodymain4', {
+    delay: 50,
+    // origin: `right`
+});
+
+ScrollReveal().reveal('.bodymain5', {
+    delay: 50,
+    // origin: `right`
+});
